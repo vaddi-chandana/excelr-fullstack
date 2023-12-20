@@ -1,0 +1,27 @@
+class F
+{
+	public static void main(String[] args) 
+	{
+		Boolean obj1 = new Boolean(true);
+		Boolean obj2 = new Boolean(false);
+		Boolean obj3 = new Boolean(!true);
+		Boolean obj4 = new Boolean(!false);
+		boolean b1 = true, b2 = false;
+		Boolean obj5 = new Boolean(b1);
+		Boolean obj6 = new Boolean(b2);
+		char c1 = obj1.charValue();
+		char c2 = obj2.charValue();
+		char c3 = obj3.charValue();
+		char c4 = obj4.charValue();
+		char c5 = obj5.charValue();
+		char c6 = obj6.charValue();
+
+		System.out.println(c1);
+		System.out.println(c2);
+		System.out.println(c3);
+		System.out.println(c4);
+		System.out.println(c5);
+		System.out.println(c6);
+		System.out.println("done");
+	}
+}

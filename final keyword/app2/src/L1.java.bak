@@ -1,0 +1,9 @@
+class L1
+{
+	static
+	{
+		System.out.println(i=20); //error
+	}
+
+	static final int i=100;
+}

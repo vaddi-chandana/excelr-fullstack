@@ -1,0 +1,16 @@
+class L
+{
+	public static void main(String[] args) 
+	{
+		int i = 10 / 0;
+		int j = Integer.parseInt("abc");
+		String s1 = null;
+		int k = s1.length();
+		int[] l = new int[4];
+		int m = l[4];
+		Object obj = new Double();
+		String s1 = String(obj);
+		main(null);
+		int[] n = new int[99999999];
+	}
+}

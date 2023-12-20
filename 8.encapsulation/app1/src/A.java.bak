@@ -1,0 +1,86 @@
+class A
+{
+	//data members/ variables
+
+	private int id;
+
+	private String name;
+
+	private int age;
+
+	//getter methods
+
+	public int getId()
+	{
+		return this.id;
+	}
+	public String getName()
+	{
+		return this.name;
+	}
+	public int getAge()
+	{
+		return this.age;
+	}
+
+
+
+	//setter methods
+	public void setId(int i)
+	{
+		this.id = i;
+	}
+	public void setName(String str)
+	{
+		this.name = str;
+	}
+	public void setAge(int j)
+	{
+		this.age = j;
+	}
+}
+class B 
+{
+	public static void main(String[] args)
+	{
+		A a1 = new A();
+		a1.setId(1);
+		a1.setName("vijay");
+		a1.setAge(90);
+		int i = a1.getId();
+		String str = a1.getName();
+		int j = a1.getAge();
+		System.out.println(i);
+		System.out.println(str);
+		System.out.println(j);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*

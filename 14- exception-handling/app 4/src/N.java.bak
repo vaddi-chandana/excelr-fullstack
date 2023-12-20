@@ -1,0 +1,14 @@
+class N 
+{
+	public static void main(String[] args) 
+	{
+		try
+		{
+			Class.forName("");
+		}
+		catch (ClassNotFoundException ex)
+		{
+			ex.printStackTrace();
+		}
+	}
+}

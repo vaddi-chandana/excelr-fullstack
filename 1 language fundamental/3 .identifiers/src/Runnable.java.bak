@@ -1,0 +1,7 @@
+class Runnable
+{
+ static public  void main (String[] ref)  
+   {
+     System.out.println(" from Runnable");
+    }
+}
